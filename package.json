@@ -1,0 +1,31 @@
+{
+  "name": "jihosworld",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "npx hardhat compile && npx hardhat run scripts/deploy.js --network ropsten",
+    "deploy:dev": "npx hardhat compile && npx hardhat run scripts/deploy.js --network localhost",
+    "start": "npm run deploy:dev && next dev"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "date-fns": "^2.21.3",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.2.0",
+    "gray-matter": "^4.0.3",
+    "hardhat": "^2.3.0",
+    "next": "^10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.2",
+    "@types/react": "^17.0.5",
+    "typescript": "^4.2.4"
+  }
+}

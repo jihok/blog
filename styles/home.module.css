@@ -1,0 +1,42 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.leftSide {
+  margin-top: 100px;
+  max-width: 250px;
+}
+
+.blurb {
+  margin-bottom: 1em;
+}
+
+.posts {
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+  border-left: 3px solid black;
+  padding-left: 10px;
+}
+
+.icon {
+  font-size: 0.8em;
+  vertical-align: text-bottom;
+}
+
+.guestbook {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  flex: 0.5;
+}
